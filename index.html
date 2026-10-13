@@ -338,6 +338,8 @@ Sujith<span>.</span>
 <li><a href="#about">About</a></li>
 <li><a href="#skills">Skills</a></li>
 <li><a href="#projects">Projects</a></li>
+<li><a href="#experience">Experience</a></li>
+<li><a href="#certificates">Certificates</a></li>
 <li><a href="#education">Education</a></li>
 <li><a href="#contact">Contact</a></li>
 
@@ -957,6 +959,27 @@ Developed an AI-powered crop recommendation system that suggests the most suitab
 
 </section>
 
+<!-- ================= INTERNSHIP EXPERIENCE ================= -->
+<section id="experience">
+  <h2 class="section-title">Internship <span>Experience</span></h2>
+  <div class="experience-grid">
+    <article class="experience-card">
+      <div class="experience-topline">
+        <span class="experience-icon">✦</span>
+        <span class="experience-status">INTERNSHIP</span>
+      </div>
+      <h3>Python with Artificial Intelligence &amp; Machine Learning Intern</h3>
+      <p class="experience-company">CodeBind Technologies · Chennai</p>
+      <p class="experience-date">16 June 2026 – 22 June 2026</p>
+      <p class="experience-description">Completed a one-week internship focused on Python with Artificial Intelligence and Machine Learning. This experience strengthened my exposure to Python programming and AI/ML concepts.</p>
+      <div class="tags">
+        <span>Python</span><span>Artificial Intelligence</span><span>Machine Learning</span>
+      </div>
+      <a class="experience-link" href="certificates/codebind-internship.jpg" target="_blank" rel="noopener">View Internship Certificate ↗</a>
+    </article>
+  </div>
+</section>
+
 <!-- ================= EDUCATION ================= -->
 
 <section id="education">
@@ -999,59 +1022,39 @@ Algorithms and Data Analytics.
 
 </section>
 
-<!-- ================= CERTIFICATIONS ================= -->
-
-<section id="certificates">
-
-<h2 class="section-title">
-
-Certifications <span>& Learning</span>
-
-</h2>
-
-<div class="certificate-grid">
-
-<div class="certificate-card">
-
-<h3>Machine Learning</h3>
-
-<p>
-
-Currently learning Machine Learning using
-Scikit-learn and TensorFlow.
-
-</p>
-
-</div>
-
-<div class="certificate-card">
-
-<h3>Deep Learning</h3>
-
-<p>
-
-Hands-on practice with CNNs,
-RNNs, LSTMs and Neural Networks.
-
-</p>
-
-</div>
-
-<div class="certificate-card">
-
-<h3>Data Analytics</h3>
-
-<p>
-
-Working with Pandas, NumPy,
-Matplotlib and Feature Engineering.
-
-</p>
-
-</div>
-
-</div>
-
+<!-- ================= ROTATING CERTIFICATES ================= -->
+<section id="certificates" class="certificates-section">
+  <h2 class="section-title">My <span>Certificates</span></h2>
+  <p class="certificates-intro">My certificates rotate in a 3D circle. Hover over the showcase to pause, then select any image to view it full size.</p>
+  <div class="certificate-stage" aria-label="Four real certificate images rotating in a 3D circle">
+    <div class="certificate-ring">
+      <article class="certificate-item" style="--i:0">
+        <a class="certificate-image-link" href="certificates/codebind-internship.jpg" target="_blank" rel="noopener" aria-label="View CodeBind Technologies internship certificate">
+          <img class="certificate-image" src="certificates/codebind-internship.jpg" alt="CodeBind Technologies internship certificate for Python with Artificial Intelligence and Machine Learning">
+          <span class="certificate-image-caption">CodeBind · Python + AI/ML Internship</span>
+        </a>
+      </article>
+      <article class="certificate-item" style="--i:1">
+        <a class="certificate-image-link" href="certificates/infosys-flutter-certificate.png" target="_blank" rel="noopener" aria-label="View Infosys Springboard Flutter certificate">
+          <img class="certificate-image" src="certificates/infosys-flutter-certificate.png" alt="Infosys Springboard Mobile App Development using Flutter course completion certificate">
+          <span class="certificate-image-caption">Infosys Springboard · Flutter</span>
+        </a>
+      </article>
+      <article class="certificate-item" style="--i:2">
+        <a class="certificate-image-link" href="certificates/futureskills-cybersecurity-office-tools.png" target="_blank" rel="noopener" aria-label="View FutureSkills Prime Gold certificate">
+          <img class="certificate-image" src="certificates/futureskills-cybersecurity-office-tools.png" alt="FutureSkills Prime Gold certificate for Cybersecurity and Office Tools SPC 111">
+          <span class="certificate-image-caption">FutureSkills Prime · Gold</span>
+        </a>
+      </article>
+      <article class="certificate-item" style="--i:3">
+        <a class="certificate-image-link" href="certificates/infosys-data-science-certificate.png" target="_blank" rel="noopener" aria-label="View Infosys Springboard Introduction to Data Science certificate">
+          <img class="certificate-image" src="certificates/infosys-data-science-certificate.png" alt="Infosys Springboard Introduction to Data Science course completion certificate">
+          <span class="certificate-image-caption">Infosys Springboard · Data Science</span>
+        </a>
+      </article>
+    </div>
+  </div>
+  <p class="certificate-note">Four certificates currently included. Select a certificate image to open the original in a new tab.</p>
 </section>
 
 <!-- ================= ACHIEVEMENTS ================= -->
@@ -1332,6 +1335,34 @@ line-height:1.8;
 }
 
 </style>
+
+<style>
+/* Internship experience */
+.experience-grid{display:grid;grid-template-columns:minmax(280px,760px);justify-content:center;gap:25px}
+.experience-card{position:relative;overflow:hidden;padding:32px;border-radius:24px;background:linear-gradient(145deg,rgba(79,195,247,.08),rgba(124,77,255,.07));border:1px solid rgba(79,195,247,.25);box-shadow:0 15px 45px rgba(0,0,0,.18);transition:transform .3s,border-color .3s}
+.experience-card:hover{transform:translateY(-7px);border-color:var(--primary)}
+.experience-topline{display:flex;align-items:center;justify-content:space-between;margin-bottom:20px}
+.experience-icon{display:grid;place-items:center;width:48px;height:48px;border-radius:15px;background:linear-gradient(135deg,#7c4dff,#4fc3f7);color:#06101a;font-size:25px}
+.experience-status{font-size:11px;letter-spacing:2px;color:var(--primary);border:1px solid rgba(79,195,247,.35);padding:7px 10px;border-radius:30px}
+.experience-card h3{font-size:25px;margin-bottom:5px}.experience-company{color:var(--primary);font-weight:600}.experience-date{color:#9ca9c2;font-size:14px;margin:10px 0 15px}.experience-description{color:var(--gray);line-height:1.8}.experience-link{display:inline-block;margin-top:24px;color:var(--primary);text-decoration:none;border-bottom:1px solid rgba(79,195,247,.45);padding-bottom:5px}
+/* 3D rotating ring displaying the actual certificate images */
+.certificates-section{overflow:hidden;text-align:center}
+.certificates-intro{color:var(--gray);margin:-35px auto 10px;max-width:650px;line-height:1.7;padding:0 12px}
+.certificate-stage{position:relative;width:100%;height:500px;display:flex;align-items:center;justify-content:center;perspective:1400px;overflow:hidden}
+.certificate-ring{position:relative;width:360px;height:270px;transform-style:preserve-3d;animation:certificateSpin 24s linear infinite}
+.certificate-stage:hover .certificate-ring,.certificate-stage:focus-within .certificate-ring{animation-play-state:paused}
+.certificate-item{position:absolute;inset:0;width:360px;height:270px;transform:rotateY(calc(var(--i)*90deg)) translateZ(300px);transform-style:preserve-3d;backface-visibility:hidden}
+.certificate-image-link{position:relative;display:flex;width:100%;height:100%;align-items:center;justify-content:center;flex-direction:column;gap:0;padding:8px;border:1px solid rgba(79,195,247,.5);border-radius:16px;background:rgba(8,13,25,.96);box-shadow:0 15px 45px rgba(0,0,0,.42),0 0 25px rgba(79,195,247,.13);text-decoration:none;overflow:hidden;backface-visibility:hidden;transition:border-color .25s,box-shadow .25s}
+.certificate-image-link:hover{border-color:var(--primary);box-shadow:0 15px 50px rgba(79,195,247,.25)}
+.certificate-image{display:block;width:100%;height:calc(100% - 30px);object-fit:contain;background:#fff;border-radius:8px}
+.certificate-image-caption{display:flex;align-items:center;justify-content:center;width:100%;height:30px;padding:3px 6px;color:#eaf4ff;font-size:11px;font-weight:600;letter-spacing:.2px;text-align:center}
+.certificate-note{max-width:700px;margin:5px auto 0;color:var(--gray);font-size:13px;line-height:1.7;padding:0 12px}
+@keyframes certificateSpin{from{transform:rotateY(0deg)}to{transform:rotateY(360deg)}}
+@media(max-width:900px){.certificate-stage{height:430px;perspective:1150px}.certificate-ring{transform:scale(.85);animation-duration:30s}.certificate-item{transform:rotateY(calc(var(--i)*90deg)) translateZ(260px)}}
+@media(max-width:560px){.certificate-stage{height:350px;perspective:850px}.certificate-ring{transform:scale(.62);animation-duration:34s}.certificate-item{transform:rotateY(calc(var(--i)*90deg)) translateZ(240px)}.certificates-intro{margin-top:-35px}}
+@media(prefers-reduced-motion:reduce){.certificate-ring{animation-duration:90s}}
+</style>
+
 <!-- ================= CONTACT ================= -->
 
 <section id="contact">
