@@ -977,6 +977,21 @@ Developed an AI-powered crop recommendation system that suggests the most suitab
       </div>
       <a class="experience-link" href="certificates/codebind-internship.jpg" target="_blank" rel="noopener">View Internship Certificate ↗</a>
     </article>
+
+    <article class="experience-card">
+      <div class="experience-topline">
+        <span class="experience-icon">✦</span>
+        <span class="experience-status">INTERNSHIP</span>
+      </div>
+      <h3>Web Development Intern</h3>
+      <p class="experience-company">InAmigos Foundation</p>
+      <p class="experience-date">1 July 2026 – 14 July 2026</p>
+      <p class="experience-description">Completed a Web Development Internship at InAmigos Foundation, gaining practical exposure to web development and software development workflows.</p>
+      <div class="tags">
+        <span>Web Development</span>
+      </div>
+      <a class="experience-link" href="certificates/inamigos-web-development-internship.jpg" target="_blank" rel="noopener">View Internship Certificate ↗</a>
+    </article>
   </div>
 </section>
 
@@ -1026,7 +1041,7 @@ Algorithms and Data Analytics.
 <section id="certificates" class="certificates-section">
   <h2 class="section-title">My <span>Certificates</span></h2>
   <p class="certificates-intro">My certificates rotate in a 3D circle. Hover over the showcase to pause, then select any image to view it full size.</p>
-  <div class="certificate-stage" aria-label="Four real certificate images rotating in a 3D circle">
+  <div class="certificate-stage" aria-label="Five certificate images rotating in a 3D circle">
     <div class="certificate-ring">
       <article class="certificate-item" style="--i:0">
         <a class="certificate-image-link" href="certificates/codebind-internship.jpg" target="_blank" rel="noopener" aria-label="View CodeBind Technologies internship certificate">
@@ -1052,23 +1067,16 @@ Algorithms and Data Analytics.
           <span class="certificate-image-caption">Infosys Springboard · Data Science</span>
         </a>
       </article>
+      <article class="certificate-item" style="--i:4">
+        <a class="certificate-image-link" href="certificates/inamigos-web-development-internship.jpg" target="_blank" rel="noopener" aria-label="View InAmigos Foundation Web Development Internship certificate">
+          <img class="certificate-image" src="certificates/inamigos-web-development-internship.jpg" alt="InAmigos Foundation Web Development Internship certificate">
+          <span class="certificate-image-caption">InAmigos Foundation · Web Development</span>
+        </a>
+      </article>
     </div>
   </div>
-  <p class="certificate-note">Four certificates currently included. Select a certificate image to open the original in a new tab.</p>
+  <p class="certificate-note">Five certificates currently included. Select a certificate image to open it full size.</p>
 </section>
-<div class="certificate-card" style="--i: 4;">
-    <a href="certificates/inamigos-web-development-internship.jpg"
-       target="_blank"
-       rel="noopener">
-
-        <img
-            src="certificates/inamigos-web-development-internship.jpg"
-            alt="InAmigos Foundation Web Development Internship Certificate">
-
-        <h3>Web Development Internship</h3>
-    </a>
-</div>
-
 
 <!-- ================= ACHIEVEMENTS ================= -->
 
@@ -1364,15 +1372,15 @@ line-height:1.8;
 .certificate-stage{position:relative;width:100%;height:500px;display:flex;align-items:center;justify-content:center;perspective:1400px;overflow:hidden}
 .certificate-ring{position:relative;width:360px;height:270px;transform-style:preserve-3d;animation:certificateSpin 24s linear infinite}
 .certificate-stage:hover .certificate-ring,.certificate-stage:focus-within .certificate-ring{animation-play-state:paused}
-.certificate-item{position:absolute;inset:0;width:360px;height:270px;transform:rotateY(calc(var(--i)*90deg)) translateZ(300px);transform-style:preserve-3d;backface-visibility:hidden}
+.certificate-item{position:absolute;inset:0;width:360px;height:270px;transform:rotateY(calc(var(--i)*72deg)) translateZ(390px);transform-style:preserve-3d;backface-visibility:hidden}
 .certificate-image-link{position:relative;display:flex;width:100%;height:100%;align-items:center;justify-content:center;flex-direction:column;gap:0;padding:8px;border:1px solid rgba(79,195,247,.5);border-radius:16px;background:rgba(8,13,25,.96);box-shadow:0 15px 45px rgba(0,0,0,.42),0 0 25px rgba(79,195,247,.13);text-decoration:none;overflow:hidden;backface-visibility:hidden;transition:border-color .25s,box-shadow .25s}
 .certificate-image-link:hover{border-color:var(--primary);box-shadow:0 15px 50px rgba(79,195,247,.25)}
 .certificate-image{display:block;width:100%;height:calc(100% - 30px);object-fit:contain;background:#fff;border-radius:8px}
 .certificate-image-caption{display:flex;align-items:center;justify-content:center;width:100%;height:30px;padding:3px 6px;color:#eaf4ff;font-size:11px;font-weight:600;letter-spacing:.2px;text-align:center}
 .certificate-note{max-width:700px;margin:5px auto 0;color:var(--gray);font-size:13px;line-height:1.7;padding:0 12px}
 @keyframes certificateSpin{from{transform:rotateY(0deg)}to{transform:rotateY(360deg)}}
-@media(max-width:900px){.certificate-stage{height:430px;perspective:1150px}.certificate-ring{transform:scale(.85);animation-duration:30s}.certificate-item{transform:rotateY(calc(var(--i)*90deg)) translateZ(260px)}}
-@media(max-width:560px){.certificate-stage{height:350px;perspective:850px}.certificate-ring{transform:scale(.62);animation-duration:34s}.certificate-item{transform:rotateY(calc(var(--i)*90deg)) translateZ(240px)}.certificates-intro{margin-top:-35px}}
+@media(max-width:900px){.certificate-stage{height:430px;perspective:1150px}.certificate-ring{transform:scale(.85);animation-duration:30s}.certificate-item{transform:rotateY(calc(var(--i)*72deg)) translateZ(340px)}}
+@media(max-width:560px){.certificate-stage{height:350px;perspective:850px}.certificate-ring{transform:scale(.62);animation-duration:34s}.certificate-item{transform:rotateY(calc(var(--i)*72deg)) translateZ(300px)}.certificates-intro{margin-top:-35px}}
 @media(prefers-reduced-motion:reduce){.certificate-ring{animation-duration:90s}}
 </style>
 
